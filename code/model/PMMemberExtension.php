@@ -2,7 +2,6 @@
 
 class PMMemberExtension extends DataExtension
 {
-
     private static $db = array(
         'IsDeveloper' => 'Boolean'
     );
@@ -11,8 +10,4 @@ class PMMemberExtension extends DataExtension
     private static $has_one = array(
         'Client' => 'PMClient'
     );
-
-
-    
-
 }

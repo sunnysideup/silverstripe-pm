@@ -2,5 +2,4 @@
 
 class PMXeroTalk extends Object
 {
-
 }
